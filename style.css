@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1c1c1c;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+.intro-text {
+    max-width: 50%;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.intro-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.resume {
+    padding: 40px 20px;
+}
+
+.resume h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.resume h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.resume .experience,
+.resume .education {
+    margin-bottom: 20px;
+}
+
+.resume ul {
+    list-style: none;
+}
+
+.skills {
+    padding: 40px 20px;
+}
+
+.skills h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skills p {
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #333;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social-media span {
+    margin: 0 10px;
+}
